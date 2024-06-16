@@ -1,6 +1,8 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+# 更改此文件可把镜像上传至阿里云仓库，使用地址【registry.cn-beijing.aliyuncs.com/llc2024/镜像名:tag号】可直接国内使用仓库内镜像。。
+#nginx
+# 支持私库
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
+# 支持指定架构
+#--platform=linux/arm64 xiaoyaliu/alist
+linuxserver/qbittorrent:4.6.4-r1-ls330
